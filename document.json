@@ -1,0 +1,38 @@
+{
+  "name": "Population Dataset",
+  "description": "Population figures for countries, regions (e.g. Asia) and the world.",
+  "logo": "_images/dataset.png",
+  "has_supporting_content": false,
+  "stack_id": "population_dataset",
+  "type": "Dataset",
+  "categories": [
+    "Population"
+  ],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [
+    {
+      "description": "Get Dataset",
+      "exec": "cd /home/student/projects && mkdir population_dataset && cd  population_dataset  && git clone https://github.com/datasets/population.git"
+    }
+  ],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "meta": {
+    "Install time": [
+      "2 minutes"
+    ],
+    "Language": [
+      "Dataset"
+    ],
+    "categories": [
+      "Population"
+    ]
+  },
+  "isDocumentSaved": true
+}

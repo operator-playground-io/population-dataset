@@ -1,0 +1,21 @@
+{
+  "title": "Population Dataset",
+  "description": "Population figures for countries, regions (e.g. Asia) and the world.",
+  "logo": "_images/dataset.png",
+  "enabled": true,
+  "language": [
+    "Dataset"
+  ],
+  "document": "data-logging-stack",
+  "stack_id": "population_dataset",
+  "type": "Dataset",
+  "categories": [
+    "Population"
+  ],
+  "has_dataset": true,
+  "has_api": false,
+  "git_url": "",
+  "git_commit": "",
+  "installTime": "2 minutes",
+  "isStacksSaved": true
+}
