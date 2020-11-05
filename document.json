@@ -19,6 +19,9 @@
       "exec": "cd /home/student/projects && mkdir population_dataset && cd  population_dataset  && git clone https://github.com/datasets/population.git"
     }
   ],
+  "tag": [
+    "CSV"
+  ],
   "display": [
     {
       "name": "Developer Dashboard",
